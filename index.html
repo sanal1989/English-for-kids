@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <title>English for kids</title>
+</head>
+<body>
+    <header>
+        <div class="headerBox">
+            <input  id="menuButton" type="button" onclick="buttomMenu()" value="Menu">
+            <nav class="menu">
+                <input id="closeButton" type="button" onclick="closeMenu()" value="X">
+                <p><a href="index.html" class="linkMenu">Main page</a></p>
+                <p><a href="cards.html" class="linkMenu">Action(set A)</a></p>
+                <p><a href="cards.html" class="linkMenu">Action(set B)</a></p>
+                <p><a href="cards.html" class="linkMenu">Action(set C)</a></p>
+                <p><a href="cards.html" class="linkMenu">Abjective</a></p>
+                <p><a href="cards.html" class="linkMenu">Animal(set A)</a></p>
+                <p><a href="cards.html" class="linkMenu">Animal(set B)</a></p>
+                <p><a href="cards.html" class="linkMenu">Clothes</a></p>
+            </nav>
+            <input id="stateButton" type="button" onclick="switcher()" value="TRAIN">
+        </div>
+    </header>
+    <main>
+        <div class="mainBox">
+            <div id="game">
+               <div class="blockGame">
+                   <figure>
+                        <img src="assets/img/run.jpg" alt="">
+                        <div class="space"></div>
+                        <figcaption>Action(set A)</figcaption>
+                   </figure>
+               </div>
+               <div class="blockGame">
+                    <figure>
+                        <img src="assets/img/swim.jpg" alt="">
+                        <div class="space"></div>
+                        <figcaption>Action(set B)</figcaption>
+                    </figure>
+               </div>
+               <div class="blockGame">
+                    <figure>
+                        <img src="assets/img/point.jpg" alt="">
+                        <div class="space"></div>
+                        <figcaption>Action(set C)</figcaption>
+                    </figure>
+               </div>
+               <div class="blockGame">
+                    <figure>
+                        <img src="assets/img/play.jpg" alt="">
+                        <div class="space"></div>
+                        <figcaption>Abjective</figcaption>
+                    </figure>
+               </div>
+               <div class="blockGame">
+                    <figure>
+                        <img src="assets/img/rabbit.jpg" alt="">
+                        <div class="space"></div>
+                        <figcaption>Animal(set A)</figcaption>
+                    </figure>
+               </div>
+               <div class="blockGame">
+                    <figure>
+                        <img src="assets/img/horse.jpg" alt="">
+                        <div class="space"></div>
+                        <figcaption>Animal(set B)</figcaption>
+                    </figure>
+               </div>
+               <div class="blockGame">
+                    <figure>
+                        <img src="assets/img/blouse.jpg" alt="">
+                        <div class="space"></div>
+                        <figcaption>Clothes</figcaption>
+                    </figure>
+               </div>
+               <div class="blockGame">
+                    <figure>
+                        <img src="assets/img/happy.jpg" alt="">
+                        <div class="space"></div>
+                        <figcaption>Emotion</figcaption>
+                    </figure>
+               </div>
+            </div>
+        </div>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
